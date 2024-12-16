@@ -1,0 +1,2990 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+
+/* Primeira seção do cabeçalho */
+
+
+.conteiner01 {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    width: Fill (1,366px);
+    height: Fixed (480px);
+    background-color: #2D2D2D;
+    border-bottom-right-radius: 32px;
+    border-bottom-left-radius: 32px;
+}
+
+.header {
+    display: grid;
+    width: Fixed (860px);
+    height: Fill (480px);
+    padding-top: 24px;
+    padding-bottom: 24px;
+    padding-left: 80px;
+}
+
+
+/* Bloco contido a logo e o menu de navegção */
+
+
+.logoMenu {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    width: Fill (780px);
+    gap: 24px;
+}
+
+
+.logo img {
+    width: 140px;
+    height: 24px;
+    color: #EAE8E4;
+}
+
+
+nav {
+    gap: 8px;
+}
+
+.menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+    width:Fixed (141px);
+    gap: 10px;
+    background-color: #2D2D2D;
+    list-style-type: none;
+    position: relative;
+    right: 60px;
+}
+
+.c1 a {
+    font-family: "Helvetica Neue", Helvetica, sans-serif, Arial;
+    font-size: 20px;
+    line-height: 23.56px;
+    align-items: center;
+    color: #EAE8E4;
+    text-decoration: none;
+    position: relative;
+    right: 30px;
+}
+
+
+.c2 a {
+    font-family: "Helvetica Neue", Helvetica, sans-serif, Arial;
+    font-size: 20px;
+    line-height: 23.56px;
+    align-items: center;
+    color: #EAE8E4;
+    text-decoration: none;
+    position: relative;
+    right: 15px;
+}
+
+.c3 a {
+    font-family: "Helvetica Neue", Helvetica, sans-serif, Arial;
+    font-size: 20px;
+    line-height: 23.56px;
+    align-items: center;
+    color: #EAE8E4;
+    text-decoration: none;
+}
+
+.c4 a {
+    font-family: "Helvetica Neue", Helvetica, sans-serif, Arial;
+    font-size: 20px;
+    line-height: 23.56px;
+    align-items: center;
+    color: #EAE8E4;
+    text-decoration: none;
+    position: relative;
+    left: 15px;
+}
+
+/* Bloco do título, subtítulo e a img scroll */
+
+.titleHeader {
+    width: Fixed (700px);
+    height: Fill (408px);
+    gap: 8px;
+}
+
+.mainTitle {
+    width: Fill (700px);
+    height: Fill (300px);
+    padding-top: 60px;
+    gap: 8px;
+}
+
+.mainTitleTwo {
+    width: fill(700px);
+    gap: 16px;
+}
+
+.mainTitleTwo h1 {
+    width: 700px;
+    height: 114px;
+    font-family: "Helvetica Neue", Helvetica, sans-serif, Arial;
+    font-size: 48px;
+    line-height: 56.88px;
+    letter-spacing: 2%;
+    color: #EAE8E4;
+}
+
+.captionHeader {
+    width: Fill (700px);
+}
+
+.captionHeader h2{
+    width: 700px;
+    height: 81px;
+    font-weight: 400;
+    font-family: "Helvetica Neue", Helvetica, sans-serif, Arial;
+    font-size: 24px;
+    line-height: 27.02px;
+    letter-spacing: 2%;
+    color: #EAE8E4;
+}
+
+.scroll {
+    display: flex;
+    justify-content: center;
+    padding-left: 1px;
+    padding-right: 1px;
+    gap: 10px;
+}
+
+.scroll img {
+    width: 70px;
+    height: 100px;
+    border-radius: 1px;
+}
+
+
+/* Bloco com a imagem NOME DA EMPRESA */
+
+
+.imageMonks {
+    border-bottom-right-radius: 32px ;
+    width: Fixed (506px);
+    padding: 10px;
+    gap: 10px;
+    background-image: url(/images/Image.svg);
+    background-size: cover;
+}
+
+
+/* Segundo bloco, seção das 4 iamgens com texto */
+
+.conteiner02 {
+    background-color: #EAE8E4;
+    width: Fill (1,366px);
+    padding: 64px 80px 32px 80px;
+    gap: 40px;
+}
+
+.textImages {
+    width: Fill (1,206px);
+    gap: 8px;
+}
+
+.title02 {
+    width: Fill (1,206px);
+}
+
+
+.title02 h1 {
+    width: 1206px;
+    height: 47px;
+    font-weight: 400;
+    font-family: "Helvetica Neue", Helvetica, sans-serif, Arial;
+    font-size: 40px;
+    line-height: 46.92px;
+    letter-spacing: 2%;
+    color: #2D2D2D;
+}
+
+.caption02 {
+    width: Fill (1,206px);
+}
+
+.caption02 h2 {
+    width: 1206px;
+    height: 47px;
+    font-weight: 400;
+    font-family: "Helvetica Neue", Helvetica, sans-serif, Arial;
+    font-size: 24px;
+    line-height: 28.27px;
+    letter-spacing: 2%;
+    color: #2D2D2D;
+}
+
+/* Imagens do conteiner 02*/
+
+.images {
+    width: Fill (1,206px);
+    gap: 24px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+
+/* Primeira imagem */
+
+
+.image01 {
+    width: Fill (283.5px);
+    border-radius: 8px;
+    padding: 6px 6px 16px 6px;
+    gap: 8px;
+    background-color:#FCFCFD;
+}
+
+.image01 img {
+    width: 271.5px;
+    height: 180px;
+    border-radius: 8px;
+}
+
+.captionPai01 {
+    width: Fill (271.5px);
+    padding-right: 8px;
+    padding-left: 8px;
+    gap: 8px;
+}
+
+.titleimage01 {
+    width: Fill (255.5px);
+    gap: 10px;
+}
+
+.titleimage01 h2 {
+    width: 255.5px;
+    height: 36px;
+    font-weight: 600;
+    font-family: "Helvetica Neue", Helvetica, sans-serif, Arial;
+    font-size: 24px;
+    line-height: 36px;
+    color: #0C111D;
+
+}
+
+.captionimage01 h3 {
+    width: 255.5px;
+    height: 60px;
+    font-weight: 400;
+    font-family: "Helvetica Neue", Helvetica, sans-serif, Arial;
+    font-size: 20px;
+    line-height: 30px;
+    color: #0C111D;
+}
+
+/* Segunda imagem */
+
+
+.image02 {
+    width: Fill (283.5px);
+    border-radius: 8px;
+    padding: 6px 6px 16px 6px;
+    gap: 8px;
+    background-color:#FCFCFD;
+}
+
+.image02 img {
+    width: 271.5px;
+    height: 180px;
+    border-radius: 8px;
+}
+
+.captionPai02 {
+    width: Fill (271.5px);
+    padding-right: 8px;
+    padding-left: 8px;
+    gap: 8px;
+}
+
+.titleimage02 {
+    width: Fill (255.5px);
+    gap: 10px;
+}
+
+.titleimage02 h2 {
+    width: 255.5px;
+    height: 36px;
+    font-weight: 600;
+    font-family: "Helvetica Neue", Helvetica, sans-serif, Arial;
+    font-size: 24px;
+    line-height: 36px;
+    color: #0C111D;
+
+}
+
+.captionimage02 h3 {
+    width: 255.5px;
+    height: 60px;
+    font-weight: 400;
+    font-family: "Helvetica Neue", Helvetica, sans-serif, Arial;
+    font-size: 20px;
+    line-height: 30px;
+    color: #0C111D;
+}
+
+
+/* Terceira foto */
+
+
+.image03 {
+    width: Fill (283.5px);
+    border-radius: 8px;
+    padding: 6px 6px 16px 6px;
+    gap: 8px;
+    background-color:#FCFCFD;
+}
+
+.image03 img {
+    width: 271.5px;
+    height: 180px;
+    border-radius: 8px;
+}
+
+.captionPai03 {
+    width: Fill (271.5px);
+    padding-right: 8px;
+    padding-left: 8px;
+    gap: 8px;
+}
+
+.titleimage03 {
+    width: Fill (255.5px);
+    gap: 10px;
+}
+
+.titleimage03 h2 {
+    width: 255.5px;
+    height: 36px;
+    font-weight: 600;
+    font-family: "Helvetica Neue", Helvetica, sans-serif, Arial;
+    font-size: 24px;
+    line-height: 36px;
+    color: #0C111D;
+
+}
+
+.captionimage03 h3 {
+    width: 255.5px;
+    height: 60px;
+    font-weight: 400;
+    font-family: "Helvetica Neue", Helvetica, sans-serif, Arial;
+    font-size: 20px;
+    line-height: 30px;
+    color: #0C111D;
+}
+
+
+/* Última foto da seção */
+
+.image04 {
+    width: Fill (283.5px);
+    border-radius: 8px;
+    padding: 6px 6px 16px 6px;
+    gap: 8px;
+    background-color:#FCFCFD;
+}
+
+.image04 img {
+    width: 271.5px;
+    height: 180px;
+    border-radius: 8px;
+}
+
+.captionPai04 {
+    width: Fill (271.5px);
+    padding-right: 8px;
+    padding-left: 8px;
+    gap: 8px;
+}
+
+.titleimage04 {
+    width: Fill (255.5px);
+    gap: 10px;
+}
+
+.titleimage04 h2 {
+    width: 255.5px;
+    height: 36px;
+    font-weight: 600;
+    font-family: "Helvetica Neue", Helvetica, sans-serif, Arial;
+    font-size: 24px;
+    line-height: 36px;
+    color: #0C111D;
+
+}
+
+.captionimage04 h3 {
+    width: 255.5px;
+    height: 60px;
+    font-weight: 400;
+    font-family: "Helvetica Neue", Helvetica, sans-serif, Arial;
+    font-size: 20px;
+    line-height: 30px;
+    color: #0C111D;
+}
+
+
+/* Conteiner 03 */
+
+.conteiner03 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: Fixed (1,366px);
+    padding: 64px 80px 64px 80px;
+    gap: 24px;
+    background-color: #EAE8E4;
+}
+
+
+.filho01 {
+    width: Fill (591px);
+    gap: 34px;
+}
+
+.filho01 img {
+    width: 591px;
+    height: 525px;
+    border-radius: 24px;
+}
+
+.filhoTitle {
+    width: Fill (591px);
+    gap: 8px;
+}
+
+.filhoTitle01 {
+    width: Fill (591px);
+}
+
+.filhoTitle01 h2 {
+    width: 591px;
+    height: 94px;
+    font-weight: 400;
+    font-family: "Helvetica Neue", Helvetica, sans-serif, Arial;
+    font-size: 40px;
+    line-height: 46.92px;
+    letter-spacing: 2%;
+}
+
+.filhocaption01 {
+    width: Fill (591px);
+}
+
+.filhocaption01 h3 {
+    width: 591px;
+    height: 56px;
+    font-weight: 400;
+    font-family: "Helvetica Neue", Helvetica, sans-serif, Arial;
+    font-size: 24px;
+    line-height: 28.27px;
+    letter-spacing: 2%;
+    color: #2D2D2D;
+}
+
+.filho02 {
+    display: grid;
+    grid-template-rows: 1fr auto;
+    height: Fill (717px);
+    gap: 24px;
+}
+
+.filho02Image img {
+    width: 591px;
+    height: 346.5px;
+    border-radius: 24px;
+    position: relative;
+    top: 40px;
+}
+
+.filho02Image02 img {
+    width: 591px;
+    height: 346.5px;
+    border-radius: 24px;
+}
+
+
+/* Conteiner 04 */
+
+
+.conteiner04 {
+    width: Fixed (1,366px);
+    padding: 32px 80px 64px 80px;
+    gap: 24px;
+    background-color: #EAE8E4;
+}
+
+.apps {
+    display: flex;
+    justify-content: center;
+    width: Fill (1,206px);
+    height: Fill (216px);
+    border-radius: 24px;
+    padding: 40px;
+    gap: 40px;
+    background-color: #3C0C60;
+}
+
+.titleapps {
+    width: Fill (868.87px);
+    gap: 8px;
+}
+
+.titleapps01 {
+    width: Fill (868.87px);
+}
+
+.titleapps01 h3 {
+    width: 868.87px;
+    height: 47px;
+    font-weight: 400;
+    font-family: "Helvetica Neue", Helvetica, sans-serif, Arial;
+    font-size: 40px;
+    line-height: 46.92px;
+    letter-spacing: 2%;
+    color: #EAE8E4;
+}
+
+.captionapps {
+    width: Fill (868.87px);
+}
+
+.captionapps h4 {
+    width: 868.87px;
+    height: 56px;
+    font-weight: 400;
+    font-family: "Helvetica Neue", Helvetica, sans-serif, Arial;
+    font-size: 24px;
+    line-height: 28.27px;
+    letter-spacing: 2%;
+    color: #EAE8E4;
+}
+
+
+/* Botões para download do apllicativo */
+
+
+.botoes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+/* COnteiner 05 */
+
+
+.conteiner05 {
+    width: Fill (1,366px);
+    padding: 32px 80px 32px 80px;
+    gap: 40px;
+    background-color: #EAE8E4;
+}
+
+.titleconteiner05 {
+    width: Fill (1,206px);
+}
+
+.titleconteiner05 h2 {
+    width: 1206px;
+    height: 47px;
+    font-weight: 400;
+    font-family: "Helvetica Neue", Helvetica, sans-serif, Arial;
+    font-size: 40px;
+    line-height: 46.92px;
+    letter-spacing: 2%;
+    color: #2D2D2D;
+}
+
+.lista {
+    display: grid;
+    justify-content: center;
+    width: (1,206px);
+    gap: 24px;
+}
+
+.row1 {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(5, auto);
+    gap: 20px;
+}
+
+.row2 {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(7, auto);
+    gap: 20px;
+}
+
+.row3 {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(4, auto);
+    gap: 20px;
+}
+
+
+/* Item perfumaria */
+
+.subitem01 {
+    border-radius: 42px;
+    border: 1px solid #7D26C9;
+    padding-left: 40px;
+    padding-right: 40px;
+    gap: 10px;
+    background-color: #DFDCD5;
+}
+
+.C05Caption01 {
+    display: grid;
+    justify-content: center;
+    height: Fixed (30px);
+    gap: 10px;
+}
+
+.C05Caption01 p {
+    display: grid;
+    text-align: center;
+    font-family: "inter", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #7D26C9;
+}
+
+/* Item corpo e banho */
+
+.subitem02 {
+    border-radius: 42px;
+    border: 1px solid #7D26C9;
+    padding-left: 40px;
+    padding-right: 40px;
+    gap: 10px;
+    background-color: #DFDCD5;
+}
+
+.C05Caption02 {
+    display: grid;
+    justify-content: center;
+    height: Fixed (30px);
+    gap: 10px;
+}
+
+.C05Caption02 p {
+    display: grid;
+    text-align: center;
+    white-space: nowrap;
+    font-family: "inter", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #7D26C9;
+}
+
+/* Item hidratante */
+
+.subitem03 {
+    border-radius: 42px;
+    border: 1px solid #7D26C9;
+    padding-left: 40px;
+    padding-right: 40px;
+    gap: 10px;
+    background-color: #DFDCD5;
+}
+
+.C05Caption03 {
+    display: grid;
+    justify-content: center;
+    height: Fixed (30px);
+    gap: 10px;
+}
+
+.C05Caption03 p {
+    display: grid;
+    text-align: center;
+    font-family: "inter", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #7D26C9;
+}
+
+/* Item desodorante */
+
+.subitem04 {
+    border-radius: 42px;
+    border: 1px solid #7D26C9;
+    padding-left: 40px;
+    padding-right: 40px;
+    gap: 10px;
+    background-color: #DFDCD5;
+}
+
+.C05Caption04 {
+    display: grid;
+    justify-content: center;
+    height: Fixed (30px);
+    gap: 10px;
+}
+
+.C05Caption04 p {
+    display: grid;
+    text-align: center;
+    font-family: "inter", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #7D26C9;
+}
+
+/* Item cabelos */
+
+.subitem05 {
+    border-radius: 42px;
+    border: 1px solid #7D26C9;
+    padding-left: 40px;
+    padding-right: 40px;
+    gap: 10px;
+    background-color: #DFDCD5;
+}
+
+.C05Caption05 {
+    display: grid;
+    justify-content: center;
+    height: Fixed (30px);
+    gap: 10px;
+}
+
+.C05Caption05 p {
+    display: grid;
+    text-align: center;
+    font-family: "inter", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #7D26C9;
+}
+
+/* Item maquiagem */
+
+.subitem06 {
+    border-radius: 42px;
+    border: 1px solid #7D26C9;
+    padding-left: 40px;
+    padding-right: 40px;
+    gap: 10px;
+    background-color: #DFDCD5;
+}
+
+.C05Caption06 {
+    display: grid;
+    justify-content: center;
+    height: Fixed (30px);
+    gap: 10px;
+}
+
+.C05Caption06 p {
+    display: grid;
+    text-align: center;
+    font-family: "inter", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #7D26C9;
+}
+
+/* Item rosto */
+
+.subitem07 {
+    border-radius: 42px;
+    border: 1px solid #7D26C9;
+    padding-left: 40px;
+    padding-right: 40px;
+    gap: 10px;
+    background-color: #DFDCD5;
+}
+
+.C05Caption07 {
+    display: grid;
+    justify-content: center;
+    height: Fixed (30px);
+    gap: 10px;
+}
+
+.C05Caption07 p {
+    display: grid;
+    text-align: center;
+    font-family: "inter", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #7D26C9;
+}
+
+/* Item casa */
+
+.subitem08 {
+    border-radius: 42px;
+    border: 1px solid #7D26C9;
+    padding-left: 40px;
+    padding-right: 40px;
+    gap: 10px;
+    background-color: #DFDCD5;
+}
+
+.C05Caption08 {
+    display: grid;
+    justify-content: center;
+    height: Fixed (30px);
+    gap: 10px;
+}
+
+.C05Caption08 p {
+    display: grid;
+    text-align: center;
+    font-family: "inter", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #7D26C9;
+}
+
+/* Item infantil */
+
+.subitem09 {
+    border-radius: 42px;
+    border: 1px solid #7D26C9;
+    padding-left: 40px;
+    padding-right: 40px;
+    gap: 10px;
+    background-color: #DFDCD5;
+}
+
+.C05Caption09 {
+    display: grid;
+    justify-content: center;
+    height: Fixed (30px);
+    gap: 10px;
+}
+
+.C05Caption09 p {
+    display: grid;
+    text-align: center;
+    font-family: "inter", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #7D26C9;
+}
+
+/* Item shampoo */
+
+.subitem10 {
+    border-radius: 42px;
+    border: 1px solid #7D26C9;
+    padding-left: 40px;
+    padding-right: 40px;
+    gap: 10px;
+    background-color: #DFDCD5;
+}
+
+.C05Caption10 {
+    display: grid;
+    justify-content: center;
+    height: Fixed (30px);
+    gap: 10px;
+}
+
+.C05Caption10 p {
+    display: grid;
+    text-align: center;
+    font-family: "inter", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #7D26C9;
+}
+
+/* Item sabonete */
+
+.subitem11 {
+    border-radius: 42px;
+    border: 1px solid #7D26C9;
+    padding-left: 40px;
+    padding-right: 40px;
+    gap: 10px;
+    background-color: #DFDCD5;
+}
+
+.C05Caption11 {
+    display: grid;
+    justify-content: center;
+    height: Fixed (30px);
+    gap: 10px;
+}
+
+.C05Caption11 p {
+    display: grid;
+    text-align: center;
+    font-family: "inter", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #7D26C9;
+}
+
+/* Item Body splash */
+
+.subitem12 {
+    border-radius: 42px;
+    border: 1px solid #7D26C9;
+    padding-left: 40px;
+    padding-right: 40px;
+    gap: 10px;
+    background-color: #DFDCD5;
+}
+
+.C05Caption12 {
+    display: grid;
+    justify-content: center;
+    height: Fixed (30px);
+    gap: 10px;
+}
+
+.C05Caption12 p {
+    display: grid;
+    text-align: center;
+    white-space: nowrap;
+    font-family: "inter", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #7D26C9;
+}
+
+/* Item Óleo corporal */
+
+.subitem13 {
+    border-radius: 42px;
+    border: 1px solid #7D26C9;
+    padding-left: 40px;
+    padding-right: 40px;
+    gap: 10px;
+    background-color: #DFDCD5;
+}
+
+.C05Caption13 {
+    display: grid;
+    justify-content: center;
+    height: Fixed (30px);
+    gap: 10px;
+}
+
+.C05Caption13 p {
+    display: grid;
+    text-align: center;
+    white-space: nowrap;
+    font-family: "inter", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #7D26C9;
+}
+
+/* Item Corretivo */
+
+.subitem14 {
+    border-radius: 42px;
+    border: 1px solid #7D26C9;
+    padding-left: 40px;
+    padding-right: 40px;
+    gap: 10px;
+    background-color: #DFDCD5;
+}
+
+.C05Caption14 {
+    display: grid;
+    justify-content: center;
+    height: Fixed (30px);
+    gap: 10px;
+}
+
+.C05Caption14 p {
+    display: grid;
+    text-align: center;
+    font-family: "inter", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #7D26C9;
+}
+
+/* Item  Proteção solar */
+
+.subitem15 {
+    border-radius: 42px;
+    border: 1px solid #7D26C9;
+    padding-left: 40px;
+    padding-right: 40px;
+    gap: 10px;
+    background-color: #DFDCD5;
+}
+
+.C05Caption15 {
+    display: grid;
+    justify-content: center;
+    height: Fixed (30px);
+    gap: 10px;
+}
+
+.C05Caption15 p {
+    display: grid;
+    text-align: center;
+    white-space: nowrap;
+    font-family: "inter", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #7D26C9;
+}
+
+/* Conteiner 06 */
+
+.conteiner06 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: Fill (1,366px);
+    padding: 32px 80px 64px 80px;
+    gap: 40px;
+    background-color: #EAE8E4;
+}
+
+
+/* Primeiro Bloco */
+
+
+.card01 {
+    display: grid;
+    justify-items: center;
+    width: Fill (375.33px);
+    border-radius: 16px;
+    border: 2px solid #DFBBFE;
+    box-shadow: 0 0 4px #DFBBFE, 0 0 6px #DFBBFE;
+    padding: 24px;
+    gap: 24px;
+    background-color: #FFFFFF;
+}
+
+.textCard1 {
+    width: Fill (327.33px);
+    gap: 8px;
+}
+
+.titleCard1 {
+    width: Fill (327.33px);
+}
+
+.titleCard1 h2 {
+    width: 327.33px;
+    height: 36px;
+    font-family: "Helvetica Neue", Helvetica, sans-serif, Arial;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    color: #2D2D2D;
+}
+
+.captioncard1 {
+    width: Fill (327.33px);
+}
+
+.captionCard1 p {
+    width: 327.33px;
+    height: 120px;
+    font-family: "Helvetica Neue", Helvetica, sans-serif, Arial;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #2D2D2D;
+}
+
+
+.botaoCard1 {
+    border-radius: 4px;
+    padding-right: 40px;
+    padding-left: 40px;
+    background-color: #DFBBFE;
+    border: none;
+}
+
+.botaoCard1 p {
+    font-family: "inter", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #2D2D2D;
+}
+
+/* Bloco do meio */
+
+.card02 {
+    display: grid;
+    justify-items: center;
+    width: Fill (375.33px);
+    border-radius: 16px;
+    border: 2px solid #DFBBFE;
+    box-shadow: 0 0 4px #DFBBFE, 0 0 6px #DFBBFE;
+    padding: 24px;
+    gap: 24px;
+    background-color: #FFFFFF;
+}
+
+.textCard2 {
+    width: Fill (327.33px);
+    gap: 8px;
+}
+
+.titleCard2 {
+    width: Fill (327.33px);
+}
+
+.titleCard2 h2 {
+    width: 327.33px;
+    height: 36px;
+    font-family: "Helvetica Neue", Helvetica, sans-serif, Arial;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    color: #2D2D2D;
+}
+
+.captioncard2 {
+    width: Fill (327.33px);
+}
+
+.captionCard2 p {
+    width: 327.33px;
+    height: 120px;
+    font-family: "Helvetica Neue", Helvetica, sans-serif, Arial;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #2D2D2D;
+}
+
+
+.botaoCard2 {
+    border-radius: 4px;
+    padding-right: 40px;
+    padding-left: 40px;
+    background-color: #DFBBFE;
+    border: none;
+}
+
+.botaoCard2 p {
+    font-family: "inter", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #2D2D2D;
+}
+
+/* Último bloco */
+
+.card03 {
+    display: grid;
+    justify-items: center;
+    width: Fill (375.33px);
+    border-radius: 16px;
+    border: 2px solid #DFBBFE;
+    box-shadow: 0 0 4px #DFBBFE, 0 0 6px #DFBBFE;
+    padding: 24px;
+    gap: 24px;
+    background-color: #FFFFFF;
+}
+
+.textCard3 {
+    width: Fill (327.33px);
+    gap: 8px;
+}
+
+.titleCard3 {
+    width: Fill (327.33px);
+}
+
+.titleCard3 h2 {
+    width: 327.33px;
+    height: 36px;
+    font-family: "Helvetica Neue", Helvetica, sans-serif, Arial;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    color: #2D2D2D;
+}
+
+.captioncard3 {
+    width: Fill (327.33px);
+}
+
+.captionCard3 p {
+    width: 327.33px;
+    height: 120px;
+    font-family: "Helvetica Neue", Helvetica, sans-serif, Arial;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #2D2D2D;
+}
+
+
+.botaoCard3 {
+    border-radius: 4px;
+    padding-right: 40px;
+    padding-left: 40px;
+    background-color: #DFBBFE;
+    border: none;
+}
+
+.botaoCard3 p {
+    font-family: "inter", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #2D2D2D;
+}
+
+/* Caixa formulario */
+
+.caixaForms {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    width: Fill (1,366px);
+    padding: 64px 80px 64px 80px;
+    gap: 40px;
+    background-color: #2D2D2D;
+}
+
+.imageForms img {
+    width: 314.55px;
+    height: 300.87px;
+    color: #DFBBFE;
+}
+
+/* Formulário */
+
+#forms {
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    justify-content: center;
+    align-items: center;
+    width: Fill (851.45px);
+    border-radius: 24px;
+    padding: 24px;
+    gap: 32px;
+    background-color: #EAE8E4;
+}
+
+.paiText {
+    width: Fill (803.45px);
+    gap: 8px;
+}
+
+.textForms {
+    width:Fill (803.45px);
+    gap: 8px;
+}
+
+.titleForms {
+    width: Fill (803.45px);
+}
+
+.titleForms h2 {
+    font-family: "Helvetica Neue", Helvetica, sans-serif, Arial;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 46.92px;
+    letter-spacing: 2%;
+    color: #2D2D2D;
+}
+
+.captionForms1 {
+    width: Fill (803.45px);
+    gap: 10px;
+}
+
+.captionForms1 p {
+    font-family: "Helvetica Neue", Helvetica, sans-serif, Arial;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #2D2D2D;
+}
+
+.captionForms2 {
+    width: Fill (803.45px);
+}
+
+.captionForms2 p {
+    font-family: "Helvetica Neue", Helvetica, sans-serif, Arial;
+    font-size: 16px;
+    font-weight:400;
+    line-height: 18.85px;
+    letter-spacing: 2%;
+    color: #2D2D2D;
+}
+
+
+/* Seção dos inputs */
+
+/* Inputs 01 */
+.comandosEntrada {
+    display: grid;
+    grid-template-columns: auto 24px auto;
+    width: Fill (803.45px);
+}
+
+.inputs1 {
+    display: grid;
+    width: Fill (392.73px);
+    height: Fixed (102px);
+    gap: 18px;
+}
+
+.category01 {
+    width: Fill (392.73px);
+    color: #FFFFFF;
+}
+
+.category01 input {
+    width: 95.5%;
+    font-family: "Helvetica Neue", Helvetica, sans-serif, Arial;
+    font-size: 20px;
+    font-weight:400;
+    line-height: 30px;
+    outline: none;
+    border: 0;
+    border-radius: 8px;
+    padding: 6px 10px 6px 10px;
+    color: #2D2D2D;
+}
+
+/* Inputs 02 */
+
+.category02 {
+    width: Fill (392.73px);
+    border-radius: 8px;
+    color: #FFFFFF;
+}
+
+.category02 input {
+    width: 95.5%;
+    font-family: "Helvetica Neue", Helvetica, sans-serif, Arial;
+    font-size: 20px;
+    font-weight:400;
+    line-height: 30px;
+    outline: none;
+    border: 0;
+    border-radius: 8px;
+    padding: 6px 10px 6px 10px;
+    color: #2D2D2D;
+}
+
+/* Seção 02 com + dois inputs */
+/* Input 03 */
+
+
+.inputs2 {
+    display: grid;
+    width: Fill (392.73px);
+    height: Fixed (102px);
+    gap: 18px;
+}
+
+
+.category03 {
+    width: Fill (392.73px);
+    border-radius: 8px;
+    color: #FFFFFF;
+}
+
+.category03 input {
+    width: 95.5%;
+    font-family: "Helvetica Neue", Helvetica, sans-serif, Arial;
+    font-size: 20px;
+    font-weight:400;
+    line-height: 30px;
+    outline: none;
+    border: 0;
+    border-radius: 8px;
+    padding: 6px 10px 6px 10px;
+    color: #2D2D2D;
+}
+
+/*Input 04 */
+
+.category04 {
+    width: Fill (392.73px);
+    border-radius: 8px;
+    color: #FFFFFF;
+}
+
+.category04 input {
+    width: 95.5%;
+    font-family: "Helvetica Neue", Helvetica, sans-serif, Arial;
+    font-size: 20px;
+    font-weight:400;
+    line-height: 30px;
+    outline: none;
+    border: 0;
+    border-radius: 8px;
+    padding: 6px 10px 6px 10px;
+    color: #2D2D2D;
+}
+
+/* Bloco secury, soma para liberar o formulário */
+
+.secury {
+    display: grid;
+    grid-template-columns: auto 200px auto;
+    align-items: center;
+    width: Fill (803.45px);
+    gap: 32px;
+}
+
+
+.titleSecury h2 {
+    width: 281px;
+    height: 36px;
+    font-family: "Helvetica Neue", Helvetica, sans-serif, Arial;
+    font-size: 24px;
+    font-weight:400;
+    line-height: 36px;
+    color: #2D2D2D;
+}
+
+.somaSecury {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.somaSecury .img1 {
+    border-radius: 4px;
+}
+
+.somaSecury .img2 {
+    width: 14px;
+    height: 8px;
+}
+
+.resultadoForms {
+    width: Fill (234.45px);
+    border-radius: 8px;
+    color: #FFFFFF;
+}
+
+.resultadoForms input {
+    font-family: "Helvetica Neue", Helvetica, sans-serif, Arial;
+    font-size: 20px;
+    font-weight:400;
+    line-height: 30px;
+    outline: none;
+    border: 0;
+    border-radius: 8px;
+    padding: 6px 10px 6px 10px;
+    color: #2D2D2D;
+}
+
+.botaostyle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#botaoForms {
+    border-radius: 4px;
+    padding-right: 40px;
+    padding-left: 40px;
+    background-color: #DFBBFE;
+    border: 0;
+}
+
+#botaoForms p {
+    font-family: "inter", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #2D2D2D;
+    opacity: 50%;
+}
+
+/* Barra que divide o formulário do rodapé */
+
+.barra {
+    width: Fill (1,366px);
+    padding-top: 24px;
+    padding-left: 80px;
+    padding-right: 80px;
+    background-color: #2D2D2D;
+}
+
+.barrastyle {
+    width: 1206px;
+    height: 1px;
+    background-color: #DFBBFE;
+}
+
+.rodape {
+    display: grid;
+    grid-template-rows: repeat(2, auto);
+    width: Fixed (1,366px);
+    padding: 40px 120px 40px 120px;
+    gap: 40px;
+    background-color: #2D2D2D;
+}
+
+/* Redes socias */
+
+.social {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(4, auto);
+    gap: 40px;
+}
+
+.instagram {
+    width: 32px;
+    height: 32px;
+}
+.info {
+    gap: 8px;
+}
+
+.titleinfo {
+    display: grid;
+    grid-template-rows: repeat(2, auto);
+    justify-content: center;
+    width: Fill (572px);
+}
+
+.titleinfo h3 {
+    font-family: "Helvetica Neue", Helvetica, sans-serif, Arial;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 36px;
+    color: #EAE8E4;
+    align-items: center;
+}
+
+.categoryinfo {
+    width: Fill (572px);
+    gap: 40px;
+}
+
+.categoryinfo ul {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    list-style: none;
+}
+
+.categoryinfo ul a {
+    text-decoration: none;
+}
+
+.info1, .info2, .info3, .info4 {
+    width: Fixed (113px);
+    gap: 10px;
+}
+
+.info1 a, .info2 a, .info3 a, .info4 a {
+    font-family: "Helvetica Neue", Helvetica, sans-serif, Arial;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23.56px;
+    color: #EAE8E4;
+    align-items: center;
+    opacity: 50%;
+}
+
+
+
+
+/* Configuração do menu mobile */
+
+.checkbox, .menu-label, .lista02 {
+    display: none;
+}
+
+
+/*  Configuração domconteiner 03 nas fotos*/
+
+#FotosMobile, .botoesMobile {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 500px) {
+
+    .header {
+        display: grid;
+    }
+
+    .conteiner01 {
+        width: Fixed (360px);
+        border-radius: 0;
+
+    }
+
+    .titleHeader {
+        
+        background-color: blue;
+        display: grid;
+        width: Fixed (236px);
+        padding: 48px 32px 24px 24px;
+    }
+
+    .mainTitle {
+        width: Fill (180px);
+        padding-top: 16px;
+        padding-bottom: 24px;
+        gap: 8px;
+    }
+
+    .mainTitleTwo {
+        width: Fill (180px);
+        gap: 16px;
+    }
+
+    .mainTitleTwo h1 {
+        width: 180px;
+        height: 84px;
+        font-family: "Helvetica Neue", Helvetica, sans-serif, Arial;
+        font-size: 24px;
+        line-height: 28.44px;
+        letter-spacing: 2%;
+        color: #EAE8E4;
+    }
+
+    .captionHeader {
+        width: Fill (180px);
+    }
+
+    .captionHeader h2 {
+        width: 180px;
+        height: 108px;
+        font-family: "Helvetica Neue", Helvetica, sans-serif, Arial;
+        font-size: 16px;
+        line-height: 18.02px;
+        letter-spacing: 2%;
+        color: #EAE8E4;
+    }
+
+    .scroll {
+        padding-left: 1px;
+        padding-right: 1px;
+        gap: 10px;
+    }
+
+    .scroll img {
+        width: 36px;
+        height: 51.43px;
+        border: 1px;
+    }
+
+
+
+    .menu {
+        display: none;
+    }
+
+    .logoMenu {
+        width: Fixed (360px);
+        height: Fixed (48px);
+        padding: 16px 24px 16px 24px;
+        gap: 16px;
+        background-color: red;
+    }
+
+    .logo img {
+        width: 93.33px;
+        height: 16px;
+    }
+    .menu-label {
+        display: block;
+    }
+
+    .imageMonks  {
+        width: Fixed (124px);
+        height: Fixed (363.43px);
+        padding: 10px;
+        gap: 10px;
+    }
+
+        .conteiner02 {
+        background-color: #EAE8E4;
+        width: Fill (360px);
+        padding: 32px 24px 32px 24px;
+        gap: 24px;
+    }
+
+    .textImages {
+        display: grid;
+       
+        width: Fill (312px);
+        gap: 8px;
+    }
+
+    .title02 h1 {
+        width: 312px;
+        height: 56px;
+        font-weight: 600;
+        font-family: "Helvetica Neue", Helvetica, sans-serif, Arial;
+        font-size: 24px;
+        line-height: 28.15px;
+        letter-spacing: 2%;
+        color: #2D2D2D;
+    }
+
+    .caption02 h2 {
+        width: 312px;
+        height: 57px;
+        font-weight: 400;
+        font-family: "Helvetica Neue", Helvetica, sans-serif, Arial;
+        font-size: 16px;
+        line-height: 18.85px;
+        letter-spacing: 2%;
+        color: #2D2D2D;
+    }
+
+    .images {
+        width:Fill (312px);
+        gap: 16px;
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    /* Imagem 01 */
+
+
+    .image01 {
+        width: Fill (312px);
+        border-radius: 8px;
+        padding: 6px 6px 16px 6px;
+        gap: 8px;
+        background-color:#FCFCFD;
+    }
+
+    .image01 img {
+        width: 300px;
+        height: 180px;
+        border-radius: 8px;
+    }
+
+    .captionPai01 {
+        width: Fill (300px);
+        padding-right: 8px;
+        padding-left: 8px;
+        gap: 8px;
+    }
+
+    .titleimage01 {
+        width: Fill (284px);
+        gap: 10px;
+    }
+
+    .titleimage01 h2 {
+        width: 284px;
+        height: 30px;
+        font-weight: 600;
+        font-family: "Helvetica Neue", Helvetica, sans-serif, Arial;
+        font-size: 20px;
+        line-height: 30px;
+        color: #0C111D;
+    
+    }
+
+    .captionimage01 h3 {
+        width: 284px;
+        height: 24px;
+        font-weight: 400;
+        font-family: "Helvetica Neue", Helvetica, sans-serif, Arial;
+        font-size: 16px;
+        line-height: 24px;
+        color: #0C111D;
+    }
+
+
+    /* Imagem 02 */
+
+
+    .image01 {
+        width: Fill (312px);
+        border-radius: 8px;
+        padding: 6px 6px 16px 6px;
+        gap: 8px;
+        background-color:#FCFCFD;
+    }
+
+    .image02 img {
+        width: 300px;
+        height: 180px;
+        border-radius: 8px;
+    }
+
+    .captionPai02 {
+        width: Fill (300px);
+        padding-right: 8px;
+        padding-left: 8px;
+        gap: 8px;
+    }
+
+    .titleimage02 {
+        width: Fill (284px);
+        gap: 10px;
+    }
+
+    .titleimage02 h2 {
+        width: 284px;
+        height: 30px;
+        font-weight: 600;
+        font-family: "Helvetica Neue", Helvetica, sans-serif, Arial;
+        font-size: 20px;
+        line-height: 30px;
+        color: #0C111D;
+    
+    }
+
+    .captionimage02 h3 {
+        width: 284px;
+        height: 24px;
+        font-weight: 400;
+        font-family: "Helvetica Neue", Helvetica, sans-serif, Arial;
+        font-size: 16px;
+        line-height: 24px;
+        color: #0C111D;
+    }
+
+    /* Imagem 03 */
+
+    .image03 {
+        width: Fill (312px);
+        border-radius: 8px;
+        padding: 6px 6px 16px 6px;
+        gap: 8px;
+        background-color:#FCFCFD;
+    }
+
+    .image03 img {
+        width: 300px;
+        height: 180px;
+        border-radius: 8px;
+    }
+
+    .captionPai03 {
+        width: Fill (300px);
+        padding-right: 8px;
+        padding-left: 8px;
+        gap: 8px;
+    }
+
+    .titleimage03 {
+        width: Fill (284px);
+        gap: 10px;
+    }
+
+    .titleimage03 h2 {
+        width: 284px;
+        height: 30px;
+        font-weight: 600;
+        font-family: "Helvetica Neue", Helvetica, sans-serif, Arial;
+        font-size: 20px;
+        line-height: 30px;
+        color: #0C111D;
+    
+    }
+
+    .captionimage03 h3 {
+        width: 284px;
+        height: 24px;
+        font-weight: 400;
+        font-family: "Helvetica Neue", Helvetica, sans-serif, Arial;
+        font-size: 16px;
+        line-height: 24px;
+        color: #0C111D;
+    }
+
+
+    /* Imagem 04 */
+
+
+    .image04 {
+        width: Fill (312px);
+        border-radius: 8px;
+        padding: 6px 6px 16px 6px;
+        gap: 8px;
+        background-color:#FCFCFD;
+    }
+
+    .image04 img {
+        width: 300px;
+        height: 180px;
+        border-radius: 8px;
+    }
+
+    .captionPai04 {
+        width: Fill (300px);
+        padding-right: 8px;
+        padding-left: 8px;
+        gap: 8px;
+    }
+
+    .titleimage04 {
+        width: Fill (284px);
+        gap: 10px;
+    }
+
+    .titleimage04 h2 {
+        width: 284px;
+        height: 30px;
+        font-weight: 600;
+        font-family: "Helvetica Neue", Helvetica, sans-serif, Arial;
+        font-size: 20px;
+        line-height: 30px;
+        color: #0C111D;
+    
+    }
+
+    .captionimage04 h3 {
+        width: 284px;
+        height: 24px;
+        font-weight: 400;
+        font-family: "Helvetica Neue", Helvetica, sans-serif, Arial;
+        font-size: 16px;
+        line-height: 24px;
+        color: #0C111D;
+    }
+
+    /* Conteiner 03 */
+
+
+    .conteiner03 {
+        display: flex;
+        width:Fill (360x);
+        padding: 32px 24px 32px 24px;
+        gap: 24px;
+    }
+
+    .filhoTitle1 {
+        width:Fill (312px);
+        gap: 8px;
+    }
+
+    .filhoTitle011 h2 {
+        width: 312px;
+        height: 56px;
+        font-weight: 600;
+        font-family: "Helvetica Neue", Helvetica, sans-serif, Arial;
+        font-size: 24px;
+        line-height: 28.15px;
+        letter-spacing: 2%;
+    }
+
+    .filhocaption012 h3 {
+        width: 312px;
+        height: 57px;
+        font-weight: 400;
+        font-family: "Helvetica Neue", Helvetica, sans-serif, Arial;
+        font-size: 16px;
+        line-height: 18.85px;
+        letter-spacing: 2%;
+        color: #2D2D2D;
+    }
+
+    #FotosMobile {
+        width: Fill (312px);
+        gap: 16px;
+        display: block;
+    }
+
+    .filho02Image1 img {
+        width: 312px;
+        height: 300px;
+        border-radius: 24px;
+    }
+
+    .filho02Image2 img {
+        width: 312px;
+        height: 200px;
+        border-radius: 24px;
+    }
+
+    .filho02Image3 img {
+        width: 312px;
+        height: 200px;
+        border-radius: 24px;
+    }
+
+    .conteiner04 {
+        width: Fixed (360px);
+        padding: 32px 24px 64px 24px;
+        gap: 24px;
+        background-color: #EAE8E4;
+    }
+
+    .apps {
+        display: grid;
+        grid-template-rows: repeat(2,auto);
+        align-items: center;
+        width: Fill (312px);
+        height: Fill (216px);
+        border-radius: 24px;
+        padding: 24px;
+        gap: 40px;
+        background-color: #3C0C60;
+    }
+
+    .titleapps {
+        width: Fill (264px);
+        gap: 8px;
+    }
+
+    .titleapps01 h3 {
+        width: 264px;
+        height: 56px;
+        font-weight: 400;
+        font-family: "Helvetica Neue", Helvetica, sans-serif, Arial;
+        font-size: 24px;
+        line-height: 28.15px;
+        letter-spacing: 2%;
+        color: #EAE8E4;
+    }
+
+    .captionapps h4 {
+        width: 264px;
+        height: 76px;
+        font-weight: 400;
+        font-family: "Helvetica Neue", Helvetica, sans-serif, Arial;
+        font-size: 16px;
+        line-height: 18.85px;
+        letter-spacing: 2%;
+        color: #EAE8E4;
+    }
+
+    .botoesMobile {
+        background-color: red;
+        justify-content: center;
+        
+    }
+    
+    .botao11 a img {
+        width: 264px;
+        height: 77.82px;
+        border-radius: 8px;
+    }
+
+    .botao22 a img {
+        width: 264px;
+        height: 77.82px;
+        border-radius: 8px;
+    }
+
+    /* conteiner 05 */
+
+    .conteiner05 {
+        display: grid;
+        width: Fill (360px);
+        padding: 32px 24px 32px 24px;
+        gap: 24px;
+        background-color: #EAE8E4;
+    }
+
+    .titleconteiner05 h2 {
+        width: 312px;
+        height: 56px;
+        font-weight: 400;
+        font-family: "Helvetica Neue", Helvetica, sans-serif, Arial;
+        font-size: 24px;
+        line-height: 28.15px;
+        letter-spacing: 2%;
+        color: #2D2D2D;
+    }
+
+    /* linhas de cada botao*/
+
+    .rows1 {
+        margin: 20px;
+        display: grid;
+        justify-content: center;
+        grid-template-columns: repeat(2, auto);
+        gap: 20px;
+    }
+    
+    .rows2 {
+        margin: 20px;
+        display: grid;
+        justify-content: center;
+        grid-template-columns: repeat(2, auto);
+        gap: 20px;
+    }
+    
+    .rows3 {
+        margin: 20px;
+        display: grid;
+        justify-content: center;
+        grid-template-columns: repeat(2, auto);
+        gap: 20px;
+    }
+
+    .rows4 {
+        margin: 20px;
+        display: grid;
+        justify-content: center;
+        grid-template-columns: repeat(3, auto);
+        gap: 20px;
+    }
+    
+    .rows5 {
+        margin: 20px;
+        display: grid;
+        justify-content: center;
+        grid-template-columns: repeat(2, auto);
+        gap: 20px;
+    }
+    
+    .rows6 {
+        margin: 20px;
+        display: grid;
+        justify-content: center;
+        grid-template-columns: repeat(2, auto);
+        gap: 20px;
+    }
+
+    .rows7 {
+        display: grid;
+        justify-content: center;
+        grid-template-columns: repeat(2, auto);
+        gap: 20px;
+    }
+
+    
+
+    /* Item perfumaria */
+
+
+    .subitem011 {
+        border-radius: 32px;
+        border: 1px solid #7D26C9;
+        padding-left: 20px;
+        padding-right: 20px;
+        gap: 10px;
+        background-color: #DFDCD5;
+    }
+    
+    .C05Caption011 {
+        display: grid;
+        justify-content: center;
+    }
+    
+    .C05Caption011 p {
+        display: grid;
+        text-align: center;
+        font-family: "Helvetica Neue", Helvetica, sans-serif, Arial;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+        color: #7D26C9;
+    }
+
+    /* Item corpo e banho */
+
+    .subitem022{
+        border-radius: 32px;
+        border: 1px solid #7D26C9;
+        padding-left: 20px;
+        padding-right: 20px;
+        gap: 10px;
+        background-color: #DFDCD5;
+    }
+
+    .C05Caption022 {
+        display: grid;
+        justify-content: center;
+    }
+
+    .C05Caption022 p {
+        display: grid;
+        text-align: center;
+        white-space: nowrap;
+        font-family: "Helvetica Neue", Helvetica, sans-serif, Arial;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+        color: #7D26C9;
+    }
+
+    /* Item hidratante */
+
+    .subitem033{
+        border-radius: 32px;
+        border: 1px solid #7D26C9;
+        padding-left: 20px;
+        padding-right: 20px;
+        gap: 10px;
+        background-color: #DFDCD5;
+    }
+
+    .C05Caption033 {
+        display: grid;
+        justify-content: center;
+    }
+
+    .C05Caption033 p {
+        display: grid;
+        text-align: center;
+        white-space: nowrap;
+        font-family: "Helvetica Neue", Helvetica, sans-serif, Arial;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+        color: #7D26C9;
+    }
+    
+    /* Item desodorante */
+
+    .subitem044{
+        border-radius: 32px;
+        border: 1px solid #7D26C9;
+        padding-left: 20px;
+        padding-right: 20px;
+        gap: 10px;
+        background-color: #DFDCD5;
+    }
+
+    .C05Caption044 {
+        display: grid;
+        justify-content: center;
+    }
+
+    .C05Caption044 p {
+        display: grid;
+        text-align: center;
+        white-space: nowrap;
+        font-family: "Helvetica Neue", Helvetica, sans-serif, Arial;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+        color: #7D26C9;
+    }
+
+    
+    /* Item cabelos */
+
+    
+    .subitem055 {
+        border-radius: 32px;
+        border: 1px solid #7D26C9;
+        padding-left: 20px;
+        padding-right: 20px;
+        gap: 10px;
+        background-color: #DFDCD5;
+    }
+
+    .C05Caption055 {
+        display: grid;
+        justify-content: center;
+    }
+
+    .C05Caption055 p {
+        display: grid;
+        text-align: center;
+        white-space: nowrap;
+        font-family: "Helvetica Neue", Helvetica, sans-serif, Arial;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+        color: #7D26C9;
+    }
+
+    /* Item maquiagem */
+
+    .subitem066 {
+        border-radius: 32px;
+        border: 1px solid #7D26C9;
+        padding-left: 20px;
+        padding-right: 20px;
+        gap: 10px;
+        background-color: #DFDCD5;
+    }
+
+    .C05Caption066 {
+        display: grid;
+        justify-content: center;
+    }
+
+    .C05Caption066 p {
+        display: grid;
+        text-align: center;
+        white-space: nowrap;
+        font-family: "Helvetica Neue", Helvetica, sans-serif, Arial;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+        color: #7D26C9;
+    }
+
+    /* Item rosto */
+
+    .subitem077 {
+        border-radius: 32px;
+        border: 1px solid #7D26C9;
+        padding-left: 20px;
+        padding-right: 20px;
+        gap: 10px;
+        background-color: #DFDCD5;
+    }
+
+    .C05Caption077 {
+        display: grid;
+        justify-content: center;
+    }
+
+    .C05Caption077 p {
+        display: grid;
+        text-align: center;
+        white-space: nowrap;
+        font-family: "Helvetica Neue", Helvetica, sans-serif, Arial;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+        color: #7D26C9;
+    }
+
+    /* Item casa */
+
+    .subitem088 {
+        border-radius: 32px;
+        border: 1px solid #7D26C9;
+        padding-left: 20px;
+        padding-right: 20px;
+        gap: 10px;
+        background-color: #DFDCD5;
+    }
+
+    .C05Caption088 {
+        display: grid;
+        justify-content: center;
+    }
+
+    .C05Caption088 p {
+        display: grid;
+        text-align: center;
+        white-space: nowrap;
+        font-family: "Helvetica Neue", Helvetica, sans-serif, Arial;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+        color: #7D26C9;
+    }
+
+
+    /* Item infantil */
+
+    .subitem099 {
+        border-radius: 32px;
+        border: 1px solid #7D26C9;
+        padding-left: 20px;
+        padding-right: 20px;
+        gap: 10px;
+        background-color: #DFDCD5;
+    }
+
+    .C05Caption099 {
+        display: grid;
+        justify-content: center;
+    }
+
+    .C05Caption099 p {
+        display: grid;
+        text-align: center;
+        white-space: nowrap;
+        font-family: "Helvetica Neue", Helvetica, sans-serif, Arial;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+        color: #7D26C9;
+    }
+
+    /* Item shampoo */
+
+    .subitem100 {
+        border-radius: 32px;
+        border: 1px solid #7D26C9;
+        padding-left: 20px;
+        padding-right: 20px;
+        gap: 10px;
+        background-color: #DFDCD5;
+    }
+
+    .C05Caption100 {
+        display: grid;
+        justify-content: center;
+    }
+
+    .C05Caption100 p {
+        display: grid;
+        text-align: center;
+        white-space: nowrap;
+        font-family: "Helvetica Neue", Helvetica, sans-serif, Arial;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+        color: #7D26C9;
+    }
+
+
+    /* Item sabonete */
+
+
+    .subitem111 {
+        border-radius: 32px;
+        border: 1px solid #7D26C9;
+        padding-left: 20px;
+        padding-right: 20px;
+        gap: 10px;
+        background-color: #DFDCD5;
+    }
+
+    .C05Caption111 {
+        display: grid;
+        justify-content: center;
+    }
+
+    .C05Caption111 p {
+        display: grid;
+        text-align: center;
+        white-space: nowrap;
+        font-family: "Helvetica Neue", Helvetica, sans-serif, Arial;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+        color: #7D26C9;
+    }
+
+    /* Item Body splash */
+
+    .subitem122 {
+        border-radius: 32px;
+        border: 1px solid #7D26C9;
+        padding-left: 20px;
+        padding-right: 20px;
+        gap: 10px;
+        background-color: #DFDCD5;
+    }
+
+    .C05Caption122 {
+        display: grid;
+        justify-content: center;
+    }
+
+    .C05Caption122 p {
+        display: grid;
+        text-align: center;
+        white-space: nowrap;
+        font-family: "Helvetica Neue", Helvetica, sans-serif, Arial;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+        color: #7D26C9;
+    }
+
+    /* Item Óleo corporal */
+
+    .subitem133 {
+        border-radius: 32px;
+        border: 1px solid #7D26C9;
+        padding-left: 20px;
+        padding-right: 20px;
+        gap: 10px;
+        background-color: #DFDCD5;
+    }
+
+    .C05Caption133 {
+        display: grid;
+        justify-content: center;
+    }
+
+    .C05Caption133 p {
+        display: grid;
+        text-align: center;
+        white-space: nowrap;
+        font-family: "Helvetica Neue", Helvetica, sans-serif, Arial;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+        color: #7D26C9;
+    }
+
+
+    /* Item Corretivo */
+
+
+    .subitem144 {
+        border-radius: 32px;
+        border: 1px solid #7D26C9;
+        padding-left: 20px;
+        padding-right: 20px;
+        gap: 10px;
+        background-color: #DFDCD5;
+    }
+
+    .C05Caption144 {
+        display: grid;
+        justify-content: center;
+    }
+
+    .C05Caption144 p {
+        display: grid;
+        text-align: center;
+        white-space: nowrap;
+        font-family: "Helvetica Neue", Helvetica, sans-serif, Arial;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+        color: #7D26C9;
+    }
+
+    /* Item  Proteção solar */
+
+    .subitem155 {
+        border-radius: 32px;
+        border: 1px solid #7D26C9;
+        padding-left: 20px;
+        padding-right: 20px;
+        gap: 10px;
+        background-color: #DFDCD5;
+    }
+
+    .C05Caption155 {
+        display: grid;
+        justify-content: center;
+    }
+
+    .C05Caption155 p {
+        display: grid;
+        text-align: center;
+        white-space: nowrap;
+        font-family: "Helvetica Neue", Helvetica, sans-serif, Arial;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+        color: #7D26C9;
+    }
+
+    /* Conteiner 06 */
+
+    .conteiner06 {
+        display: flex;
+        flex-direction: column;
+        width: Fill (360px);
+        padding: 32px 24px 64px 24px;
+        gap: 16px;
+        background-color: #EAE8E4;
+    }
+
+    /* Primeiro Bloco */
+
+    .card01 {
+        width: Fill (312px);
+        border-radius: 16px;
+        border: 2px solid #DFBBFE;
+        box-shadow: 0 0 4px #DFBBFE, 0 0 6px #DFBBFE;
+        padding: 24px;
+        gap: 24px;
+        background-color: #FFFFFF;
+    }
+    
+    .textCard1 {
+        width: Fill (264px);
+        gap: 8px;
+    }
+
+    .titleCard1 h2 {
+        width: 264px;
+        height: 30px;
+        font-family: "Helvetica Neue", Helvetica, sans-serif, Arial;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 30px;
+        color: #2D2D2D;
+    }
+
+    .captionCard1 p {
+        width: 264px;
+        height: 96px;
+        font-family: "Helvetica Neue", Helvetica, sans-serif, Arial;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        color: #2D2D2D;
+    }
+
+    .botaoCard1 {
+        border-radius: 4px;
+        padding: 0 40px 0  40px;
+        white-space: nowrap;
+        background-color: #DFBBFE;
+        border: none;
+    }
+
+    /* Bloco do meio */
+
+    
+    .card02 {
+        width: Fill (312px);
+        border-radius: 16px;
+        border: 2px solid #DFBBFE;
+        box-shadow: 0 0 4px #DFBBFE, 0 0 6px #DFBBFE;
+        padding: 24px;
+        gap: 24px;
+        background-color: #FFFFFF;
+    }
+    
+    .textCard2 {
+        width: Fill (264px);
+        gap: 8px;
+    }
+
+    .titleCard2 h2 {
+        width: 264px;
+        height: 30px;
+        font-family: "Helvetica Neue", Helvetica, sans-serif, Arial;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 30px;
+        color: #2D2D2D;
+    }
+
+    .captionCard2 p {
+        width: 264px;
+        height: 96px;
+        font-family: "Helvetica Neue", Helvetica, sans-serif, Arial;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        color: #2D2D2D;
+    }
+
+    .botaoCard2 {
+        border-radius: 4px;
+        padding: 0 40px 0  40px;
+        white-space: nowrap;
+        background-color: #DFBBFE;
+        border: none;
+    }
+
+    /* ultimo bloco */
+
+    .card03 {
+        width: Fill (312px);
+        border-radius: 16px;
+        border: 2px solid #DFBBFE;
+        box-shadow: 0 0 4px #DFBBFE, 0 0 6px #DFBBFE;
+        padding: 24px;
+        gap: 24px;
+        background-color: #FFFFFF;
+    }
+    
+    .textCard3 {
+        width: Fill (264px);
+        gap: 8px;
+    }
+
+    .titleCard3 h2 {
+        width: 264px;
+        height: 30px;
+        font-family: "Helvetica Neue", Helvetica, sans-serif, Arial;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 30px;
+        color: #2D2D2D;
+    }
+
+    .captionCard3 p {
+        width: 264px;
+        height: 96px;
+        font-family: "Helvetica Neue", Helvetica, sans-serif, Arial;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        color: #2D2D2D;
+    }
+
+    .botaoCard3 {
+        border-radius: 4px;
+        padding: 0 40px 0  40px;
+        white-space: nowrap;
+        background-color: #DFBBFE;
+        border: none;
+    }
+
+    /* Formulário */
+
+    .caixaForms {
+        align-items: center;
+        width: Fill (1,366px);
+        padding: 32px 24px 32px 24px;
+        gap: 40px;
+        background-color: #2D2D2D;
+    }
+
+    .imageForms img {
+        width: 312px;
+        height: 300px;
+        color: #DFBBFE;
+    }
+
+    /* Formulário */
+
+    #forms {
+        display: grid;
+        grid-template-rows: auto auto auto auto;
+        justify-content: center;
+        align-items: center;
+        width: Fill (312px);
+        border-radius: 24px;
+        padding: 24px;
+        gap: 32px;
+        background-color: #EAE8E4;
+    }
+
+    .paiText {
+        width: Fill (264px);
+        gap: 8px;
+    }
+
+    .textForms {
+        width:Fill (803.45px);
+        gap: 8px;
+    }
+
+    .titleForms h2 {
+        font-family: "Helvetica Neue", Helvetica, sans-serif, Arial;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 28.15px;
+        letter-spacing: 2%;
+        color: #2D2D2D;
+    }
+
+    .captionForms1 {
+        width: Fill (264px);
+        gap: 10px;
+    }
+
+    .captionForms1 p {
+        font-family: "Helvetica Neue", Helvetica, sans-serif, Arial;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        color: #2D2D2D;
+    }
+
+    .captionForms2 {
+        width: Fill (264px);
+        padding-top: 16px;
+        gap: 10px;
+    }
+
+    .captionForms2 p {
+        font-family: "Helvetica Neue", Helvetica, sans-serif, Arial;
+        font-size: 16px;
+        font-weight:400;
+        line-height: 18.85px;
+        letter-spacing: 2%;
+        color: #2D2D2D;
+    }
+
+    /* Seção dos inputs */
+
+    /* Inputs 01 */
+
+    .comandosEntrada {
+        display: grid;;
+        width: Fill (264px);
+        gap: 18px;
+    }
+
+    .inputs1 {
+        display: grid;
+        width: Fill (264px);
+        height: Fixed (102px);
+        gap: 18px;
+    }
+
+    .category01 {
+        width: Fill (264px);
+        color: #FFFFFF;
+    }
+
+    .category01 input {
+        width: 95.5%;
+        font-family: "Helvetica Neue", Helvetica, sans-serif, Arial;
+        font-size: 16px;
+        font-weight:400;
+        line-height: 24px;
+        outline: none;
+        border: 0;
+        border-radius: 8px;
+        padding: 6px 10px 6px 10px;
+        color: #2D2D2D;
+    }
+
+    /* Inputs 02 */
+
+    .category02 {
+        width: Fill (264px);
+        color: #FFFFFF;
+    }
+
+    .category02 input {
+        width: 95.5%;
+        font-family: "Helvetica Neue", Helvetica, sans-serif, Arial;
+        font-size: 16px;
+        font-weight:400;
+        line-height: 24px;
+        outline: none;
+        border: 0;
+        border-radius: 8px;
+        padding: 6px 10px 6px 10px;
+        color: #2D2D2D;
+    }
+
+    /* Seção 02 com + dois inputs */
+    /* Input 03 */
+
+    .inputs2 {
+        display: grid;
+        width: Fill (392.73px);
+        height: Fixed (102px);
+        gap: 18px;
+    }
+
+    .category03 {
+        width: Fill (264px);
+        color: #FFFFFF;
+    }
+
+    .category03 input {
+        width: 95.5%;
+        font-family: "Helvetica Neue", Helvetica, sans-serif, Arial;
+        font-size: 16px;
+        font-weight:400;
+        line-height: 24px;
+        outline: none;
+        border: 0;
+        border-radius: 8px;
+        padding: 6px 10px 6px 10px;
+        color: #2D2D2D;
+    }
+
+    /*Input 04 */
+
+ 
+     .category04 {
+         width: Fill (264px);
+         color: #FFFFFF;
+     }
+ 
+     .category04 input {
+         width: 95.5%;
+         font-family: "Helvetica Neue", Helvetica, sans-serif, Arial;
+         font-size: 16px;
+         font-weight:400;
+         line-height: 24px;
+         outline: none;
+         border: 0;
+         border-radius: 8px;
+         padding: 6px 10px 6px 10px;
+         color: #2D2D2D;
+     }
+
+     .secury {
+        width: Fill (264px);
+        gap: 16px;
+    }
+
+    .titleSecury h2 {
+        width: 234px;
+        height: 30px;
+        font-family: "Helvetica Neue", Helvetica, sans-serif, Arial;
+        font-size: 20px;
+        font-weight:400;
+        line-height: 30px;
+        color: #2D2D2D;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .filho02, .filho01, .botoes, .lista {
+        display: none;
+    }
+
+    .botoesMobile, .lista02 {
+        display: block;
+    }
+}
